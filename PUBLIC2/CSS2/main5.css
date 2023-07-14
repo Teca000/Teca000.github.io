@@ -1,0 +1,425 @@
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #fff9f1;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*************
+    MOBILE
+*************/
+
+/*************
+    HEADER 
+*************/
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #FFD966;
+}
+
+.tittle_header {
+    padding: 0%;
+    margin-top: 3%;
+    margin-left: 26%;
+    font-family: 'Oswald', sans-serif;
+    color: #FDEEDC;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 47px;
+    letter-spacing: 0.02em;
+}
+
+#ico_tittle {
+    width: 38px;
+    height: 35px;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+
+/*************
+    NAVBAR 
+*************/
+
+.nav_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 2%;
+    width: 100%;
+}
+
+#padding_ {
+    padding: 0%;
+}
+
+.nav_link {
+    display: flex;
+    font-family: 'Alegreya Sans', bold;
+    color: #FDEEDC;
+    text-decoration: none;
+    font-size: 12.5px;
+}
+
+.ico_nav {
+    display: flex;
+    width: 16px;
+    height: 16px;
+    color: #FDEEDC;
+    margin: 0;
+}
+
+#more_ {
+    width: 20px;
+    height: 20px;
+}
+
+
+/*************
+    MAIN
+*************/
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+
+.Container_Bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    width: 100%;
+    height: 3.7%;
+    background: #DEA057;
+}
+
+.Bar_Bar {
+    display: flex;
+    padding: 2px;
+    padding-top: 4px;
+    margin: 0%;
+    border: 0%;
+    font-family: 'Alegreya Sans', bold;
+    color: #FDEEDC;
+    font-size: 14px;
+}
+
+/****************
+    PRODUCT
+****************/
+
+.Products_text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    margin-top: 12px;
+    font-size: 14px;
+    font-family: 'Alegreya Sans';
+    font-weight: 700;
+    letter-spacing: 0.18px;
+    color: #FDEEDC;
+}
+
+#container_one_product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 148px;
+    height: 200px;
+    margin-top: 6%;
+    border-radius: 15px;
+    background-color: #DEA057;
+}
+
+#miel_carrito_text {
+    font-size: 22px;
+    margin-top: 5%;
+}
+
+.section_pay {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 2.7vh;
+    margin-top: 5%;
+    background: #DEA057;   
+    position: relative;
+}
+
+.final_purchase_1 {
+    z-index: 1;
+    font-family: 'Alegreya Sans', bold;
+    color: #FDEEDC;
+    font-size: 14px;
+    padding-left: 5%;
+    margin: 0;
+}
+
+.final_purchase_2 {
+    z-index: 2;
+    font-family: 'Alegreya Sans', bold;
+    color: #FDEEDC;
+    font-size: 14px;
+    padding-right: 5%;
+    margin: 0;
+}
+
+#more_margin {
+    margin-top: 6%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 133px;
+    height: 30px;
+    margin: 5%;
+    border-radius: 7px;
+    background: #965207;
+}
+
+.button_text {
+    font-size: 17px;
+    letter-spacing: 0.34px;
+    font-weight: 700;
+    font-family: 'Alegreya Sans', bold;
+    color: #FDEEDC;
+    border-radius: 7px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+/*************
+    TEBLET
+*************/
+
+@media (min-width: 412.99px) and (max-width: 1023.98px) {
+    .tittle_header {
+        font-size: 70px;
+        line-height: 47px;
+        letter-spacing: 1.4px;
+        margin-left: 32%;
+    }
+
+    #ico_tittle {
+        width: 60px;
+        height: 60px;
+        padding-right: 2%;
+        padding-bottom: 2%;
+    }
+
+    .nav_link {
+        font-size: 24px;
+    }
+
+    .ico_nav {
+        width: 35px;
+        height: 35px;
+    }
+    
+
+    #more_ {
+        width: 40px;
+        height: 40px;
+    }
+
+/*************
+    BAR 
+*************/
+
+    .Container_Bar {
+        margin-top: 6%;
+        width: 100%;
+        height: 5%;
+    }
+
+    .Bar_Bar {
+        font-size: 28px;
+    }
+
+
+/*************
+    PRODUCT
+*************/
+
+    .Products_text {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+        margin-top: 12px;
+        font-size: 14px;
+        font-family: 'Alegreya Sans';
+        font-weight: 700;
+        letter-spacing: 0.18px;
+        color: #FDEEDC;
+    }
+
+    #container_one_product {
+        width: 209px;
+        height: 258px;
+    }
+
+    #miel_carrito_text {
+        font-size: 32px;
+    }
+
+    .section_pay {
+        height: 4%;
+    }
+
+    .final_purchase_1 {
+        font-size: 26px;
+    }
+
+    .final_purchase_2 {
+        font-size: 26px;
+    }
+
+/***********
+   BUTTON
+************/
+
+    .button {
+        width: 209px;
+        height: 54px;
+    }
+
+    .button_text {
+        font-size: 31px;
+    }
+
+}
+
+/*************
+    DESKTOP
+*************/
+
+@media (min-width: 1024px) {
+/****************
+    HEADER
+*****************/
+
+.tittle_header {
+    font-size: 96px;
+        letter-spacing: 1.2px;
+        margin-left: 35%;
+    }
+
+#ico_tittle {
+        width: 75px;
+        height: 75px;
+        padding-right: 2%;
+        padding-bottom: 2%;
+    }
+
+.nav_link {
+        font-size: 22px;
+    }
+
+.ico_nav {
+        width: 32px;
+        height: 32px;
+    }
+
+
+    #more_ {
+        width: 35px;
+        height: 35px;
+    }
+
+/**********
+   BAR
+**********/
+.Container_Bar {
+    margin-top: 8%;
+    width: 100%;
+    height: 4.5%;
+}
+
+#more_ {
+    width: 39px;
+    height: 38px;
+}
+
+    .Bar_Bar {
+        font-size: 30px;
+    }
+
+/************
+     MAIN
+*************/
+
+    main {
+        height: auto;
+    }
+
+/***************
+   PRODUCTS
+****************/
+
+    #container_one_product {
+        width: 209px;
+        height: 258px;
+    }
+
+    #image_one_product {
+        display: flex;
+        height: 69%;
+    }
+
+    #miel_carrito_text {
+        font-size: 32px;
+        margin-top: 2%;
+    }
+
+    .section_pay {
+        height: 3.3%;
+    }
+
+    .final_purchase_1 {
+        font-size: 26px;
+    }
+
+    .final_purchase_2 {
+        font-size: 26px;
+    }
+
+/***********
+   BUTTON
+************/
+
+    .button {
+        width: 210px;
+        height: 48px;
+    }
+
+    .button_text {
+        font-size: 26px;
+    }
+
+}

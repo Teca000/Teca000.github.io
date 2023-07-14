@@ -1,0 +1,485 @@
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #fff9f1;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*************
+    MOBILE
+*************/
+
+/*************
+    HEADER 
+*************/
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #FFD966;
+}
+
+.tittle_header {
+    padding: 0%;
+    margin-top: 3%;
+    margin-left: 26%;
+    font-family: 'Oswald', sans-serif;
+    color: #FDEEDC;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 47px;
+    letter-spacing: 0.02em;
+}
+
+
+#ico_tittle {
+    width: 38px;
+    height: 35px;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+
+/*************
+    NAVBAR 
+*************/
+
+.nav_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 2%;
+    width: 100%;
+}
+
+#padding_ {
+    padding: 0%;
+}
+
+.nav_link {
+    display: flex;
+    font-family: 'Alegreya Sans', bold;
+    color: #FDEEDC;
+    text-decoration: none;
+    font-size: 12.5px;
+}
+
+.ico_nav {
+    display: flex;
+    width: 16px;
+    height: 16px;
+    color: #FDEEDC;
+    margin: 0;
+}
+
+#more_ {
+    width: 20px;
+    height: 20px;
+}
+
+/*************
+    MAIN
+*************/
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+/*************
+    BAR
+*************/
+
+.Container_Bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    margin-top: 15%;
+    width: 100%;
+    height: 3.7%;
+    background: #DEA057;
+}
+
+.Bar_Bar {
+    display: flex;
+    padding: 2px;
+    margin: 0%;
+    border: 0%;
+    font-family: 'Alegreya Sans', bold;
+    color: #FDEEDC;
+    font-size: 16px;
+}
+
+.more_margin_bar {
+    margin-top: 10%;
+}
+
+/***************
+    PROMOTIONS
+****************/
+
+.Container_Promotions {
+    display: flex;
+    padding: 0%;
+    margin-top: 10%;
+    width: 100%;
+    height: 17vh;
+    background: #A91B8D;
+}
+
+.Promotions_text {
+    width: 50%;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 18px;
+    padding-bottom: 5px;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    color: #FDEEDC;
+}
+
+.underline {
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.Star_promotions {
+    display: flex;
+    width: 178px;
+    height: 178px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    margin-left: 8px;
+}
+
+#none {
+    display: none;
+}
+
+#none-1 {
+    display: none;
+}
+
+/*************
+    PRODUCTS
+*************/
+
+.Container_Products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 4%;
+    margin-bottom: 8%;
+    margin-top: 5%;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width: 105px; 
+    height: 142px;
+    margin: 6px;
+    padding: 0;
+    border-radius: 15px;
+    background-color: #DEA057;
+}
+
+.Products_text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    padding-top: 12px;
+    font-size: 14px;
+    font-family: 'Alegreya Sans';
+    font-weight: 700;
+    letter-spacing: 0.18px;
+    color: #FDEEDC;
+}
+
+#decoretion {
+    text-decoration: none;
+}
+
+#padding1 {
+    padding-top: 0;
+    font-size: 16px;
+}
+
+#padding2 {
+    padding-top: 0;
+    font-size: 16px;
+}
+
+/*************
+    TABLET
+*************/
+
+/*************
+    HEADER
+*************/
+
+@media (min-width: 412.99px) and (max-width: 1023.98px) {
+    .tittle_header {
+        font-size: 70px;
+        line-height: 47px;
+        letter-spacing: 1.4px;
+        margin-left: 32%;
+    }
+
+    #ico_tittle {
+        width: 60px;
+        height: 60px;
+        padding-right: 2%;
+        padding-bottom: 2%;
+    }
+
+    .nav_link {
+        font-size: 24px;
+    }
+
+    .ico_nav {
+        width: 35px;
+        height: 35px;
+    }
+    
+
+    #more_ {
+        width: 40px;
+        height: 40px;
+    }
+
+/*************
+    BAR 
+ *************/
+
+    .Container_Bar {
+        margin-top: 6%;
+        width: 100%;
+        height: 5%;
+    }
+
+    .Bar_Bar {
+        font-size: 28px;
+    }
+
+/****************
+    PROMOTIONS 
+*****************/
+
+    .Star_promotions {
+        display: none;
+    }
+
+    #none {
+        display: flex;
+        width: 450px;
+        height: 450px;
+        margin-top: -121px;
+        margin-bottom: -20px;
+    }
+
+    .Promotions_text {
+        padding-top: 10px;
+        padding-left: 39px;
+        padding-bottom: 5px;
+        font-size: 35px;
+        font-weight: 500;
+        letter-spacing: 0.72px;
+    }
+
+    .underline {
+        font-size: 45px;
+    }
+
+/***************
+    PRODUCTS
+***************/
+
+    .Container_Products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 9%;
+        margin-bottom: 8%;
+        margin-top: 2%;
+        padding: 0;
+    }
+
+    .container {
+        width: 145px; 
+        height: 191px;
+        margin: 22px;
+    }
+
+    .Products_text {
+        padding-bottom: 10px;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 0.3px;
+    }
+
+
+    #padding1 {
+        padding-bottom: 12px;
+        font-size: 22px;
+    }
+
+    #padding2 {
+        padding-bottom: 20px;
+        font-size: 22px;
+    }
+}
+
+/*************
+    DESKTOP
+*************/
+
+@media (min-width: 1024px) {
+
+/****************
+    HEADER
+*****************/
+    .tittle_header {
+        font-size: 96px;
+        letter-spacing: 1.2px;
+        margin-left: 35%;
+    }
+    
+    #ico_tittle {
+        width: 75px;
+        height: 75px;
+        padding-right: 2%;
+        padding-bottom: 2%;
+    }
+    
+    .nav_link {
+        font-size: 22px;
+    }
+    
+    .ico_nav {
+        width: 32px;
+        height: 32px;
+    }
+    
+    #more_ {
+        width: 35px;
+        height: 35px;
+    }
+
+/*************
+    BAR 
+*************/
+
+    .Container_Bar {
+        margin-top: 8%;
+        width: 100%;
+        height: 4.5%;
+    }
+
+    #more_margin_bar {
+        margin-top: 22%;
+    }
+
+    .Bar_Bar {
+        font-size: 30px;
+    }
+
+    .ico_nav {
+        width: 29px;
+        height: 29px;
+    }
+
+/****************
+   PROMOTIONS 
+*****************/
+
+    .Star_promotions {
+        display: none;
+    }
+
+    #none {
+        display: none;
+    }
+
+    #none-1 {
+        display: flex;
+        width: 600px;
+        height: 600px;
+        margin-top: -173px;
+        margin-bottom: -20px;
+        margin-left: 35px;
+    }
+
+    .Promotions_text {
+        padding-top: 2px;
+        padding-left: 39px;
+        font-size: 50px;
+    }
+
+    .Container_Promotions {
+        margin-top: 6%;
+        height: 35vh;
+    }
+
+    .underline {
+        font-size: 58px;
+    }
+
+/****************
+    PRODUCTS
+*****************/
+
+    .Container_Products {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 8%;
+        margin-top: 3%;
+    }
+
+    .container {
+        margin-right: 40px;
+        width: 134px;
+        height: 172px;
+    }
+
+    .Products_text {
+        padding-top: 12px;
+        padding-bottom: 10px;
+        font-size: 18px;
+    }
+
+    #padding1 {
+        padding-top: 0;
+        font-size: 20px;
+    }
+
+    #padding2 {
+        padding-top: 0;
+        font-size: 20px;
+    }
+}
